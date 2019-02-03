@@ -23,7 +23,7 @@ import okhttp3.Response;
 public class OkHttpClientImpl implements IHttpClient {
     OkHttpClient mOkHttpClient = new OkHttpClient.Builder()
             .build();
-    @Override
+    @Override大概还是地方广东省分公司答复
     public IResponse get(IRequest request, boolean force) {
         /**
          *  解析业务参数
